@@ -28,10 +28,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// Creating variable called name and setting it equal to 'Dane'
+// Checking variable name to see if it equals to 'Mary', note that the data type has to match when doing comparison.
+// If variable name equals 'Mary' then console.log 'Hi Mary'
+// If variable name does not equal 'Mary' then console.log 'How do you do?'
 
 //CODE
 /*
@@ -47,10 +47,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// Creating a string variable called secret
+// Setting variable code = 123
+// Checking variable to see if it is = 123, note that the data type has to match when doing comparison.
+// If code is a number equal to 123 then set variable secret equal to 'super' and multiple 123 by 2.
+// If code is greater than  250 then set variable secret equal to 'duper'
+// console.log variable secret result
 
 //CODE
 /*
