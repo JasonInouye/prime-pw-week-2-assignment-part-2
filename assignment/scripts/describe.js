@@ -74,9 +74,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
+// setting a boolean variable called isStuden
+// setting a number variable called age to 34
+// setting a number variable called zip to 55407
+// if isStudent is true AND zip is greater than 80000 then console.log "You're a student on the West Coast!" ( should this be >= as to include 80000 as a possiblitly?)
+// else if isStudent is false OR age < 30 then console.log "What are your hobbies?"
+// else if isStudent is true then console.log "Welcome to Prime!", note that in this conditional block if isStudent is true AND zip > 80000 you would get 2 console.log results
+// The last else statement is going to console.log "How about the weather?" if NONE of the earlier conditions are met
 //
 
 //CODE
@@ -134,12 +138,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX colorOne and colorTwo as they are not correctly set according to instructions.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+//FIX missing the setting of colorTwo to Purple.
 }
 */
 
@@ -151,6 +157,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX change || to &&. Instructions are requiring both conditions to be true.
+// is the and time condition redundant? time is a const, so it never changes.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -164,6 +172,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// Fix change <= to >= according to instructions we want to check age is greater than or equal to minAge
+// Also change both console.log entries. The first one should say 'enter' and the else condition should console.log 'no entry'.
 if(minAge <= age) {
   console.log('no entry');
 } else {
